@@ -20,7 +20,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 @Controller
 public class RestFlickrController {
-	//Agregando comentarios a GitHub
+	//Agrega tu API KEY Solicitada de FLickr
 	//Please use your own Flickr API Key. This is a fake API key
 	private static final String FLICKR_API_KEY = "XXXXX";
 	@RequestMapping("/flickr-search")
