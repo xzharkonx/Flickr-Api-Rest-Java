@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Desplieguede datos Rest con Flickr</title>
+</head>
+<body>
+	<h1>Búsqueda realizada en Flickr:  '{{search}}'</h1>
+
+	{{#photos}}
+		 <img src='{{.}}'>
+	{{/photos}}
+</body>
+</html>
