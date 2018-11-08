@@ -22,7 +22,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 public class RestFlickrController {
 	//Agregando comentarios a GitHub
 	//Please use your own Flickr API Key. This is a fake API key
-	private static final String FLICKR_API_KEY = "74b8e65f0fd5a678b50935314c3bdb5e";
+	private static final String FLICKR_API_KEY = "XXXXX";
 	@RequestMapping("/flickr-search")
 	public String flickrSearch(Model model, @RequestParam String search) throws UnsupportedEncodingException, RestClientException, URISyntaxException { 
 		
